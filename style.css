@@ -1,0 +1,95 @@
+h1{
+    color: white;
+}
+h2{
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.main_word{
+    margin-inline: 50px;
+    font-size: 20px;
+}
+img{
+    display: table-cell;
+    border-radius: 50px;
+    height: 350px;
+    padding: 10px;
+}
+body {
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    flex-shrink: 0;
+    background: grey;
+}
+header{
+    text-align: center;
+    flex-shrink: 0;
+    background: grey;
+}
+ul{
+    color: black;
+    display: inline-flex;
+    padding: 0px;
+    text-align: center;
+}
+
+nav{
+    border-bottom: 3px solid black;
+}
+li{
+    list-style-type: none;
+    margin-inline: 15px;
+}
+a{
+    color: black; /* Цвет ссылки */
+    font-weight: bold;
+    padding: 20px 0px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease; /* Время изменения цвета */
+}
+a:hover{
+    color: lightsteelblue; /* Меняем цвет ссылки */
+}
+p{
+    margin: 0;
+}
+.spisokli{
+    display:table-cell;
+    text-align:center;
+    padding:3px 10px;
+}
+.spisokli:hover{
+
+    height: 370px;
+    font-size: 20px;
+}
+.spisokul{
+    display:table;
+    margin:auto;
+}
+.person_img{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.main_person_text{
+    margin: 0;
+}
+.person_li{
+    list-style-type: disc;
+}
