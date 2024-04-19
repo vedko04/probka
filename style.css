@@ -1,0 +1,144 @@
+h1{
+    color: white;
+}
+h2{
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.main_word{
+    margin-inline: 50px;
+    font-size: 20px;
+}
+img{
+    display: table-cell;
+    border-radius: 50px;
+    height: 350px;
+    padding: 0;
+}
+body {
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    flex-shrink: 0;
+    background: grey;
+}
+header{
+    min-height: 50px;
+    background: grey;
+}
+.header-main{
+    background-color: grey;
+    text-align: center;
+    padding-block: 10px;
+}
+ul{
+    color: black;
+    display: inline-flex;
+    padding: 0;
+    text-align: center;
+}
+
+nav{
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 10px;
+}
+li{
+    list-style-type: none;
+    margin-inline: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightsteelblue;
+}
+
+.spisokli a:hover{
+    color: lightsteelblue;
+}
+.student_a{
+    margin-top: 15px;
+}
+
+.spisokli{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spisokli a{
+    color: black;
+    font-weight: bold;
+    padding: 20px 0;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.spisokul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.person_img{
+    display: flex;
+    justify-content: center;
+}
+
+.main_person_text{
+    margin: 0;
+}
+.person_ul{
+    display: block;
+    text-align: left;
+}
+.person_div{
+    margin-inline: 50px;
+}
+.person_a{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    display: block;
+    height: 350px;
+    width: 100%;
+    margin-block: 20px;
+    padding: 0;
+
+}
+.person_li{
+    list-style-type: disc;
+}
+@media (max-width: 1144px) {
+    .spisokul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .spisokli img{
+        width: 360px;
+    }
+}
